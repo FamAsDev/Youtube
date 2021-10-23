@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<!--
+ * A Design by Fahad Mustafa Burfat
+ * Author: Fahad Mustafa
+ * Author URL: http://fahadmustafa.wordpress.com
+ * License: http://fahadmustafa.wordpress.com/pages/license
+-->
+
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html lang="en" class="no-js"> <!--<![endif]-->
+    <head>
+        <!-- meta character set -->
+        <meta charset="utf-8"/>
+        <!-- Mobile Specific Meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <!-- Always force latest IE rendering engine -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <!-- Meta Keyword -->
+        <meta name="keywords" content="one page, business template, single page, onepage, responsive, parallax, creative, business, html5, css3, css3 animation"/>
+		<!-- Fav icon -->
+		<link rel="shortcut icon" href="assets/img/favicon/favicon.png"/>
+		
+        <!-- Site Title -->
+        <title>YouTube</title>
+       
+        <!--
+        CSS
+        ============================================= -->
+        <!-- Font-awesome -->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css"/>
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="assets/css/style.css"/>
+		
+		<style>
+			@font-face {
+			  font-family: "Material Icons";
+			  font-style: normal;
+			  font-weight: 400;
+			  src: url(https://fonts.gstatic.com/s/materialicons/v70/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2)
+				format("woff2");
+			}
+
+			.material-icons {
+			  font-family: "Material Icons";
+			  font-weight: normal;
+			  font-style: normal;
+			  font-size: 24px;
+			  line-height: 1;
+			  letter-spacing: normal;
+			  text-transform: none;
+			  display: inline-block;
+			  white-space: nowrap;
+			  word-wrap: normal;
+			  direction: ltr;
+			  -webkit-font-feature-settings: "liga";
+			  -webkit-font-smoothing: antialiased;
+			}
+
+		</style>
+    </head>
+<body>
+	<!-- BEM CONVENTION => ITS A WAY OF WRITING CSS CLASSES -->
+	<!----------- START HEADER ----------->
+	<header id="header">
+		<div class="header__left">
+			<span class="material-icons menu">menu</span>
+			<img class="header__logo" src="assets/img/logo.png" alt="youtube-header"/>
+		</div>
+	
+		<div class="header__search">
+		    <form action="" method="" name="">
+				<input type="text" placeholder="Search" name="" />
+				<span type="submit" class="material-icons header__searchButton">search</span>
+			</form>
+			<span class="material-icons header__searchMic">mic</span>	
+		</div>
+		
+		<div class="header__icons">
+			<span class="material-icons">video_call</span>
+			<span class="material-icons">apps</span>
+			<span class="material-icons">notifications</span>
+			<div class="profile">
+				<img src="https://lh3.googleusercontent.com/ogw/ADGmqu9LHAWE6IwAYGFLH7QGwr5eK-pm0X9gjequyNmDng=s32-c-mo" alt="profile-image"/>
+			</div>
+			<div class="hide_login">
+				<button class="loginBtn">Sign In</button>
+			</div>
+		</div>
+	</header>
+	<!------------ END HEADER ------------>
+	
+	<!----------- START OF MAIN ---------->
+	<main id="main">
+
+		<div class="sidebar__responsive">
+			<!-- START OF SIDEBAR RESPONSIVE -->
+			<aside class="sidebar responsive">
+			
+				<div class="sidebar__row header">
+					<span class="material-icons closeMenu">menu</span>
+					<img class="header__logo" src="assets/img/logo.png" alt="youtube-header"/>
+				</div>
+
+				<div class="sidebar__row active">
+					<span class="material-icons">home</span>
+					<h2>Home</h2>
+				</div>
+				<div class="sidebar__row">
+					<span class="material-icons">explore</span>
+					<h2>Explore</h2>
+				</div>
+				<div class="sidebar__row">
+					<span class="material-icons">subscriptions</span>
+					<h2>Subscriptions</h2>
+				</div>
+				<hr/>
+				<div class="sidebar__row">
+					<span class="material-icons">video_library</span>
+					<h2>Library</h2>
+				</div>
+				
+			
+				<div class="sidebar__row">
+					<span class="material-icons">history</span>
+					<h2>History</h2>
+				</div>
+				<div class="sidebar__row">
+					<span class="material-icons">slideshow</span>
+					<h2>Your videos</h2>
+				</div>
+				<div class="sidebar__row">
+					<span class="material-icons">watch_later</span>
+					<h2>Watch later</h2>
+				</div>
+				<div class="sidebar__row">
+					<span class="material-icons">thumb_up</span>
+					<h2>Liked videos</h2>
+				</div>
+				<div class="sidebar__row">
+					<span class="material-icons">expand_more</span>
+					<h2>Show more</h2>
+				</div>
+				<hr/>
+				
+				<!-- SIDEBAR SIBSCRIPTIONS -- -->
+				<h3 class="sidebar__headings">SUBSCRIPTIONS</h3>
+				<div class="sidebar__row">
+					<img src="https://yt3.ggpht.com/ytc/AAUvwnhpgC_lRUN1vhDfen13AXFAmAGAMGqKVMhkLojN=s68-c-k-c0x00ffffff-no-rj" class="sidebar__channelAvatar" alt="sidebar channel"/>
+					<h2>Geo News</h2>
+					<span class="material-icons liveChannel">online_prediction</span>
+				</div>
+				<div class="sidebar__row">
+					<img src="https://yt3.ggpht.com/ytc/AAUvwngZimJmWB-gPTdrnXZK75aq6AHox1-sHGpaKgB4cA=s68-c-k-c0x00ffffff-no-rj" class="sidebar__channelAvatar" alt="sidebar channel"/>	
+					<h2>ZFK Mation</h2>
+					<span class="material-icons subscribed">fiber_manual_record</span>	
+				</div>
+				<div class="sidebar__row">
+					<img src="https://yt3.ggpht.com/ytc/AAUvwniBsQ2-4KQfl-yhypy68NtPPdzR5kDdT5CNat3xSA=s68-c-k-c0x00ffffff-no-rj" class="sidebar__channelAvatar" alt="sidebar channel"/>
+					<h2>Corse Design</h2>
+					<span class="material-icons liveChannel">online_prediction</span>
+				</div>
+				<div class="sidebar__row">
+					<img src="https://yt3.ggpht.com/ytc/AAUvwni_eo8C82zmINV1S_wx6VE-7SB9WfkNmVriS5-Vxg=s68-c-k-c0x00ffffff-no-rj" class="sidebar__channelAvatar" alt="sidebar channel"/>
+					<h2>Dawn News</h2>
+					<span class="material-icons subscribed">fiber_manual_record</span>	
+				</div>
+				<div class="sidebar__row">
+					<img src="https://yt3.ggpht.com/ytc/AAUvwnjI1e_kjzToMdbPML1lfLgJxlArNmMbklUQYDsJ2Q=s68-c-k-c0x00ffffff-no-rj" class="sidebar__channelAvatar" alt="sidebar channel"/>	
+					<h2>Dev Ed</h2>
+					
+				</div>
+				<div class="sidebar__row">
+					<img src="https://yt3.ggpht.com/ytc/AAUvwngmy_4_dTEMieSCIh8CL8SYgTg7uqIIb_ajY8O_zg=s68-c-k-c0x00ffffff-no-rj" class="sidebar__channelAvatar" alt="sidebar channel"/>
+					<h2>Kevin powell</h2>
+					<span class="material-icons subscribed">fiber_manual_record</span>	
+				</div>
+				<div class="sidebar__row">
+					<span class="material-icons">expand_more</span>
+					<h2>show 191 more</h2>
+				</div>
+				<hr/>
+				
+				<h3 class="sidebar__headings">MORE FROM YOUTUBE</h3>
+				<div class="sidebar__row">
+					<span class="material-icons">sports_esports</span>
+					<h2>Gaming</h2>
+				</div>
+				<div class="sidebar__row">
+					<span class="material-icons">online_prediction</span>
+					<h2>Live</h2>
+				</div>
+				<hr/>
+				
+				<div class="sidebar__row">
+					<span class="material-icons">settings</span>
+					<h2>Settings</h2>
+				</div>
+				<div class="sidebar__row">
+					<span class="material-icons">flag</span>
+					<h2>Report history</h2>
+				</div>
+				<div class="sidebar__row">
+					<span class="material-icons">help</span>
+					<h2>Help</h2>
+				</div>
+				<div class="sidebar__row">
+					<span class="material-icons">feedback</span>
+					<h2>Send feed back</h2>
+				</div>
+				<hr/>
+				<!-- Sidebar footer -->
+				<div class="sidebar__row footer">
+					<ul>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Press</a></li>
+						<li><a href="#">Copyright</a></li>
+						<li><a href="#">Contact us</a></li>
+						<li><a href="#">Creators</a></li>
+						<li><a href="#">Advertise</a></li>
+						<li><a href="#">Developers</a></li>
+					</ul>
+					<ul>
+						<li><a href="#">Terms</a></li>
+						<li><a href="#">Privacy</a></li>
+						<li><a href="#">policy & Safety</a></li>
+						<li><a href="#">How fake youtube works</a></li>
+						<li><a href="#">Test new features</a></li>
+					</ul>
+					<ul>
+						<li><a href="#">&copy; All rights reserved to fake youtube 2021</a></li>
+					</ul>
+				</div>
+			</aside>
+
+			<!-- backdrop -->
+			<div class="backdrop"></div>
+		</div>
+
+		<!-- START OF SIDEBAR -->
+		<aside class="sidebar">
+		
+			<div class="sidebar__row active">
+				<span class="material-icons">home</span>
+				<h2>Home</h2>
+			</div>
+			<div class="sidebar__row">
+				<span class="material-icons">explore</span>
+				<h2>Explore</h2>
+			</div>
+			<div class="sidebar__row">
+				<span class="material-icons">subscriptions</span>
+				<h2>Subscriptions</h2>
+			</div>
+			<hr/>
+			<div class="sidebar__row">
+				<span class="material-icons">video_library</span>
+				<h2>Library</h2>
+			</div>
+			
+			<div class="sidebar__mobileRow">
+				<div class="sidebar__row">
+					<span class="material-icons">history</span>
+					<h2>History</h2>
+				</div>
+				<div class="sidebar__row">
+					<span class="material-icons">slideshow</span>
+					<h2>Your videos</h2>
+				</div>
+				<div class="sidebar__row">
+					<span class="material-icons">watch_later</span>
+					<h2>Watch later</h2>
+				</div>
+				<div class="sidebar__row">
+					<span class="material-icons">thumb_up</span>
+					<h2>Liked videos</h2>
+				</div>
+				<div class="sidebar__row">
+					<span class="material-icons">expand_more</span>
+					<h2>Show more</h2>
+				</div>
+				<hr/>
+				
+				<!-- SIDEBAR SIBSCRIPTIONS -- -->
+				<h3 class="sidebar__headings">SUBSCRIPTIONS</h3>
+				<div class="sidebar__row">
+					<img src="https://yt3.ggpht.com/ytc/AAUvwnhpgC_lRUN1vhDfen13AXFAmAGAMGqKVMhkLojN=s68-c-k-c0x00ffffff-no-rj" class="sidebar__channelAvatar" alt="sidebar channel"/>
+					<h2>Geo News</h2>
+					<span class="material-icons liveChannel">online_prediction</span>
+				</div>
+				<div class="sidebar__row">
+					<img src="https://yt3.ggpht.com/ytc/AAUvwngZimJmWB-gPTdrnXZK75aq6AHox1-sHGpaKgB4cA=s68-c-k-c0x00ffffff-no-rj" class="sidebar__channelAvatar" alt="sidebar channel"/>	
+					<h2>ZFK Mation</h2>
+					<span class="material-icons subscribed">fiber_manual_record</span>	
+				</div>
+				<div class="sidebar__row">
+					<img src="https://yt3.ggpht.com/ytc/AAUvwniBsQ2-4KQfl-yhypy68NtPPdzR5kDdT5CNat3xSA=s68-c-k-c0x00ffffff-no-rj" class="sidebar__channelAvatar" alt="sidebar channel"/>
+					<h2>Corse Design</h2>
+					<span class="material-icons liveChannel">online_prediction</span>
+				</div>
+				<div class="sidebar__row">
+					<img src="https://yt3.ggpht.com/ytc/AAUvwni_eo8C82zmINV1S_wx6VE-7SB9WfkNmVriS5-Vxg=s68-c-k-c0x00ffffff-no-rj" class="sidebar__channelAvatar" alt="sidebar channel"/>
+					<h2>Dawn News</h2>
+					<span class="material-icons subscribed">fiber_manual_record</span>	
+				</div>
+				<div class="sidebar__row">
+					<img src="https://yt3.ggpht.com/ytc/AAUvwnjI1e_kjzToMdbPML1lfLgJxlArNmMbklUQYDsJ2Q=s68-c-k-c0x00ffffff-no-rj" class="sidebar__channelAvatar" alt="sidebar channel"/>	
+					<h2>Dev Ed</h2>
+					
+				</div>
+				<div class="sidebar__row">
+					<img src="https://yt3.ggpht.com/ytc/AAUvwngmy_4_dTEMieSCIh8CL8SYgTg7uqIIb_ajY8O_zg=s68-c-k-c0x00ffffff-no-rj" class="sidebar__channelAvatar" alt="sidebar channel"/>
+					<h2>Kevin powell</h2>
+					<span class="material-icons subscribed">fiber_manual_record</span>	
+				</div>
+				<div class="sidebar__row">
+					<span class="material-icons">expand_more</span>
+					<h2>show 191 more</h2>
+				</div>
+				<hr/>
+				
+				<h3 class="sidebar__headings">MORE FROM YOUTUBE</h3>
+				<div class="sidebar__row">
+					<span class="material-icons">sports_esports</span>
+					<h2>Gaming</h2>
+				</div>
+				<div class="sidebar__row">
+					<span class="material-icons">online_prediction</span>
+					<h2>Live</h2>
+				</div>
+				<hr/>
+				
+				<div class="sidebar__row">
+					<span class="material-icons">settings</span>
+					<h2>Settings</h2>
+				</div>
+				<div class="sidebar__row">
+					<span class="material-icons">flag</span>
+					<h2>Report history</h2>
+				</div>
+				<div class="sidebar__row">
+					<span class="material-icons">help</span>
+					<h2>Help</h2>
+				</div>
+				<div class="sidebar__row">
+					<span class="material-icons">feedback</span>
+					<h2>Send feed back</h2>
+				</div>
+				<hr/>
+				
+			</div>
+			<!-- Sidebar footer -->
+			<div class="sidebar__row footer">
+				<ul>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Press</a></li>
+					<li><a href="#">Copyright</a></li>
+					<li><a href="#">Contact us</a></li>
+					<li><a href="#">Creators</a></li>
+					<li><a href="#">Advertise</a></li>
+					<li><a href="#">Developers</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Terms</a></li>
+					<li><a href="#">Privacy</a></li>
+					<li><a href="#">policy & Safety</a></li>
+					<li><a href="#">How fake youtube works</a></li>
+					<li><a href="#">Test new features</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">&copy; All rights reserved to fake youtube 2021</a></li>
+				</ul>
+			</div>
+		</aside>
+		
+		<!-- START OF RECOMMENDED VIDEOS -->
+		<div class="recommendedVideos">
+			<!-- Recommended videos tags -->
+			<div class="recommendedVideos__category">
+				<p class="recommendedVideos__categoryTag active">All</p>
+				<p class="recommendedVideos__categoryTag">Javascript</p>
+				<p class="recommendedVideos__categoryTag">Html</p>
+				<p class="recommendedVideos__categoryTag">Css</p>
+				<p class="recommendedVideos__categoryTag">Python</p>
+				<p class="recommendedVideos__categoryTag">Vue</p>
+				<p class="recommendedVideos__categoryTag">bb </p>
+				<p class="recommendedVideos__categoryTag">Giveup</p>
+				<p class="recommendedVideos__categoryTag">React</p>
+				<p class="recommendedVideos__categoryTag">coding</p>
+				<p class="recommendedVideos__categoryTag">wwe</p>
+				<p class="recommendedVideos__categoryTag">React</p>
+				<p class="recommendedVideos__categoryTag">news</p>
+				<p class="recommendedVideos__categoryTag">downNews</p>
+				<p class="recommendedVideos__categoryTag">DragonBallSuper</p>
+				<p class="recommendedVideos__categoryTag">TheCodingTrain</p>
+				<p class="recommendedVideos__categoryTag">CleverProgrammer</p>
+				<p class="recommendedVideos__categoryTag">Javascript</p>
+				<p class="recommendedVideos__categoryTag">Html</p>
+				<p class="recommendedVideos__categoryTag">Css</p>
+				<p class="recommendedVideos__categoryTag">Python</p>
+				<p class="recommendedVideos__categoryTag">Vue</p>
+				<p class="recommendedVideos__categoryTag">bb </p>
+				<p class="recommendedVideos__categoryTag">Giveup</p>
+				<p class="recommendedVideos__categoryTag">React</p>
+				<p class="recommendedVideos__categoryTag">coding</p>
+				<p class="recommendedVideos__categoryTag">wwe</p>
+				<p class="recommendedVideos__categoryTag">React</p>
+				<p class="recommendedVideos__categoryTag">news</p>
+				<p class="recommendedVideos__categoryTag">downNews</p>
+				<p class="recommendedVideos__categoryTag">DragonBallSuper</p>
+				<p class="recommendedVideos__categoryTag">TheCodingTrain</p>
+				<p class="recommendedVideos__categoryTag">CleverProgrammer</p>
+			</div>
+			<!-- Recommended videos content  -->
+			<div class="recommendedVideos__content">
+			
+				<div class="videoCard">
+					<img src="assets/img/thumbnail1.jpg" class="videoCard__thumbnail" alt="video-thumbnail"/>
+					<div class="videoCard__info">
+						<img src="assets/img/zfk.jpg" class="videoCard__avatar" alt="videoCard-avatar"/>
+						<div class="videoCard__text">
+							<h4>Top 5 programming languages you need to learn in 2021.</h4>
+							<div class="videoCard__channelInfo">
+								<p>clever programmer</p> &nbsp; <span class="material-icons">verified</span>
+							</div>
+							<p>1M views &bull; 4 days ago</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="videoCard">
+					<img class="videoCard__thumbnail" src="assets/img/thumbnail2.jpg" alt="video-thumbnail"/>
+					<div class="videoCard__info">
+						<img src="https://yt3.ggpht.com/ytc/AAUvwnjI1e_kjzToMdbPML1lfLgJxlArNmMbklUQYDsJ2Q=s68-c-k-c0x00ffffff-no-rj" class="videoCard__avatar" alt="channel avatar"/>
+						<div class="videoCard__text">
+							<h4>Learn Cool Html And Css Effects and Animations in 2021..</h4>
+							<p>Dev Ed</p>
+							<p> 20k views &bull; 1 day ago </p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="videoCard">
+					<img class="videoCard__thumbnail" src="assets/img/thumbnail3.jpg" alt="video-thumbnail"/>
+					<div class="videoCard__info">
+						<img src="https://yt3.ggpht.com/ytc/AAUvwniaHN7MZyFEiNvdHuKMzIWnDF604Z2--O4GCMq-FA=s68-c-k-c0x00ffffff-no-rj" class="videoCard__avatar" alt="channel avatar"/>
+						<div class="videoCard__text">
+							<h4>How to Avoid top 10 Mistakes when learning programming language..</h4>
+							<div class="videoCard__channelInfo">
+								<p>ben awad</p> &nbsp; <span class="material-icons">verified</span>
+							</div>	
+							<p> 585k views &bull; 1 week ago </p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="videoCard">
+					<img class="videoCard__thumbnail" src="assets/img/thumbnail4.jpg" alt="video-thumbnail"/>
+					<div class="videoCard__info">
+						<img src="https://yt3.ggpht.com/ytc/AAUvwnhzQue9stp0s-8VsBdJepHr1fnCtWGpFxw1GKAxHQ=s68-c-k-c0x00ffffff-no-rj" class="videoCard__avatar" alt="channel avatar"/>
+						<div class="videoCard__text">
+							<h4>Adobe Proemiere new Hacks you must see</h4>
+							<p>Editing Zone</p>
+							<p>5M views &bull; 1 month ago </p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="videoCard">
+					<img class="videoCard__thumbnail" src="assets/img/thumbnail5.jpg" alt="video-thumbnail"/>
+					<div class="videoCard__info">
+						<img src="https://yt3.ggpht.com/ytc/AAUvwniBsQ2-4KQfl-yhypy68NtPPdzR5kDdT5CNat3xSA=s68-c-k-c0x00ffffff-no-rj" class="videoCard__avatar" alt=""/>
+						<div class="videoCard__text">
+							<h4>Top 10 New Trending Glassmorphism Ui Designs You Need To see</h4>
+							<div class="videoCard__channelInfo">
+								<p>Course Design</p> &nbsp;
+								<span class="material-icons">verified</span>
+							</div>
+							<p>2M views &bull; 2 days ago </p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="videoCard">
+					<img class="videoCard__thumbnail" src="assets/img/thumbnail6.jpg" alt="video-thumbnail"/>
+					<div class="videoCard__info">
+						<img src="https://yt3.ggpht.com/ytc/AAUvwnjAN0yjNJ-7lC0PnJ0MdvSh7Sf2bTsFP7WSkfk4jA=s68-c-k-c0x00ffffff-no-rj" class="videoCard__avatar" alt="channel avatar"/>
+						<div class="videoCard__text">
+							<h4>A Tribute to Ertugrul Bey - Story of Ertugrul</h4>
+							<p>Trt Dirillis</p>
+							<p>10M views &bull; 8 hours ago </p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="videoCard">
+					<img class="videoCard__thumbnail" src="assets/img/thumbnail7.jpg" alt="video-thumbnail"/>
+					<div class="videoCard__info">
+						<img src="https://yt3.ggpht.com/ytc/AAUvwnhh_W8I5b6XTkBupUdKUUUJBH3kbq-5dmv5qU8x=s68-c-k-c0x00ffffff-no-rj" class="videoCard__avatar" alt="channel avatar"/>
+						<div class="videoCard__text">
+							<h4>Super Dragon Ball Heroes - Big Bang Mission Arc</h4>
+							<p>Lord Aizen</p>
+							<p>66k views &bull; 2 months ago </p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="videoCard">
+					<img class="videoCard__thumbnail" src="assets/img/thumbnail8.jpg" alt="video-thumbnail"/>
+					<div class="videoCard__info">
+						<img src="https://yt3.ggpht.com/ytc/AAUvwniEalQI4uRod1sS8CQZxwOUp0GfGws8WGL-E7BhIA=s68-c-k-c0x00ffffff-no-rj" class="videoCard__avatar" alt="channel avatar"/>
+						<div class="videoCard__text">
+							<h4>The Secreat behind banana editing secrets..you must know</h4>
+							<p>Editing Effects</p>
+							<p>44k views &bull; 6 months ago </p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="videoCard">
+					<img class="videoCard__thumbnail" src="assets/img/thumbnail9.jpg" alt="video-thumbnail"/>
+					<div class="videoCard__info">
+						<img src="https://yt3.ggpht.com/ytc/AAUvwnifaQZvAunS0OFb2y_cieoVjLCVjqQW8Exf3BC1gg=s68-c-k-c0x00ffffff-no-rj" class="videoCard__avatar" alt="channel avatar"/>
+						<div class="videoCard__text">
+							<h4>Crazy People's going mad on us controversy media news ..</h4>
+							<p>Us Crazy Mind's</p>
+							<p>4M views &bull; 1 Year ago </p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="videoCard">
+					<img class="videoCard__thumbnail" src="assets/img/thumbnail10.jpg" alt="video-thumbnail"/>
+					<div class="videoCard__info">
+						<img src="https://yt3.ggpht.com/ytc/AAUvwnivcrI_X-2KOH_mFEEvmO0y17Oyc5rMRTX3frZa=s68-c-k-c0x00ffffff-no-rj" class="videoCard__avatar" alt="channel avatar"/>
+						<div class="videoCard__text">
+							<h4>LIVE GAMING You WIN Go Dude Don't Give Up</h4>
+							<p>Give Up</p>
+							<p>20M views &bull; 3 months ago </p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="videoCard">
+					<img class="videoCard__thumbnail" src="assets/img/thumbnail11.jpg" alt="video-thumbnail"/>
+					<div class="videoCard__info">
+						<img src="https://yt3.ggpht.com/ytc/AAUvwnhbmacItDPWIxk_YE9NR5vd1hesLATx684b7psA=s68-c-k-c0x00ffffff-no-rj" class="videoCard__avatar" alt="channel avatar"/>
+						<div class="videoCard__text">
+							<h4>Learn To Edit Photoshoop Youtube Banner's</h4>
+							<p>Photo Tricks</p>
+							<p>8k views &bull; 3 weeks ago </p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="videoCard">
+					<img class="videoCard__thumbnail" src="assets/img/thumbnail12.jpg" alt="video-thumbnail"/>
+					<div class="videoCard__info">
+						<img src="https://yt3.ggpht.com/ytc/AAUvwngPmfsJr5gUM0yzzZ3wdhi9agJnNMV5_JbZPo8kqg=s68-c-k-c0x00ffffff-no-rj" class="videoCard__avatar" alt="channel avatar"/>
+						<div class="videoCard__text">
+							<h4>How To Make Youtube Channel Art .. Simple Ways to make these cool pictures</h4>
+							<p>Web Dev Amplify</p>
+							<p>14k views &bull; 2 weeks ago </p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="videoCard">
+					<img class="videoCard__thumbnail" src="assets/img/thumbnail13.jpg" alt="video-thumbnail"/>
+					<div class="videoCard__info">
+						<img src="https://scontent.fkhi3-1.fna.fbcdn.net/v/t1.0-1/p200x200/118153275_1009041509535089_6065994310970661303_o.jpg?_nc_cat=104&ccb=2&_nc_sid=7206a8&_nc_eui2=AeE4145bBFJ-JLR2P6Qbt23Ier2L5hPMSMF6vYvmE8xIwdsNAb7szxE77OvX_80gWEzxOh28cEUs0HpPjO7Gbtda&_nc_ohc=Vnt2PZURCiAAX-N3Um2&_nc_ht=scontent.fkhi3-1.fna&tp=6&oh=a302d563ac9cdb7a4f61b3f1327ede14&oe=6032B394" class="videoCard__avatar" alt="channel avatar"/>
+						<div class="videoCard__text">
+							<h4>BREAKING NEWS .. Ghulam Rasool Narejo Became the World's First Pubg Game Conquror </h4>
+							<div class="videoCard__channelInfo">
+								<p>Gm Fans</p> &nbsp;
+								<span class="material-icons">verified</span>
+							</div>
+							<p>30M views &bull; 6 days ago </p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="videoCard">
+					<img class="videoCard__thumbnail" src="assets/img/thumbnail14.jpg" alt="video-thumbnail"/>
+					<div class="videoCard__info">
+						<img src="https://yt3.ggpht.com/ytc/AAUvwniY_IfD1DuJq0IxplXOeh5ACWaBf1nef4qn686m=s68-c-k-c0x00ffffff-no-rj" class="videoCard__avatar" alt="channel avatar"/>
+						<div class="videoCard__text">
+							<h4>DRAGON BALL SUPER New Series Going to come on 2022 ..No wait lets see </h4>
+							<p>Db Breakdown</p>
+							<p>60M views &bull; 1 hour ago </p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="videoCard">
+					<img class="videoCard__thumbnail" src="assets/img/thumbnail15.jpg" alt="video-thumbnail"/>
+					<div class="videoCard__info">			
+						<img  src="https://yt3.ggpht.com/ytc/AAUvwnheg2Wwh32lkbWjsqqysqh0fe6-WU_BMn4Qh0FIFg=s68-c-k-c0x00ffffff-no-rj" class="videoCard__avatar" alt="channel avatar"/>
+						<div class="videoCard__text">
+							<h4>Now The Time is To become youtube Creative Community join Now!!!!!!</h4>
+							<p>Youtube Creators</p>
+							<p>17M views &bull; 1 day ago </p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="videoCard">
+					<img class="videoCard__thumbnail" src="assets/img/thumbnail16.jpg" alt="video-thumbnail"/>
+					<div class="videoCard__info">	
+						<img  src="https://yt3.ggpht.com/ytc/AAUvwngFCKugZwen-81xq0K_0tSU6HQZsvjQ26xsQzO7zg=s68-c-k-c0x00ffffff-no-rj" class="videoCard__avatar" alt="channel avatar"/>
+						<div class="videoCard__text">
+							<h4>How To Design Simple Web Page In Html and Css</h4>
+							<p>Web Code</p>
+							<p>1M views &bull; 1 year ago </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!----------- END OF MAIN ------------>
+	
+	<!-- Login Modal -->
+	<div class="logBackdrop">
+		<div class="container">
+			<div class="sign__in">
+				<div class="top">
+					<span class="material-icons close__signIn">close</span>
+				</div>
+				<div class="form__header">
+					<img class="header__logo" src="assets/img/logo.png" alt="youtube-header"/>
+					<h3>Choose an account...</h3>
+				</div>
+				<div class="form__body">
+					<!-- START OF ACCOUNTS -->
+					<div class="account__row">
+						<img  class="choose__account2" src="https://lh3.googleusercontent.com/ogw/ADGmqu9LHAWE6IwAYGFLH7QGwr5eK-pm0X9gjequyNmDng=s32-c-mo" alt="profile-image"/>
+						<div class="account__info">
+							<h4 class="choose__account">Fahad Mustafa</h4>
+							<p>burfatfahad.121@gmail.com</p>
+						</div>
+					</div>
+					<div class="account__row">
+						<img  class="choose__account2" src="https://lh3.googleusercontent.com/ogw/ADGmqu9LHAWE6IwAYGFLH7QGwr5eK-pm0X9gjequyNmDng=s32-c-mo" alt="profile-image"/>
+						<div class="account__info">
+							<h4 class="choose__account">Fahad Mustafa</h4>
+							<p>burfatfahad.121@gmail.com</p>
+						</div>
+					</div>
+					<div class="account__row">
+						<img  class="choose__account2" src="https://lh3.googleusercontent.com/ogw/ADGmqu9LHAWE6IwAYGFLH7QGwr5eK-pm0X9gjequyNmDng=s32-c-mo" alt="profile-image"/>
+						<div class="account__info">
+							<h4 class="choose__account">Fahad Mustafa</h4>
+							<p>burfatfahad.121@gmail.com</p>
+						</div>
+					</div>
+					<div class="account__row">
+						<img  class="choose__account2" src="https://lh3.googleusercontent.com/ogw/ADGmqu9LHAWE6IwAYGFLH7QGwr5eK-pm0X9gjequyNmDng=s32-c-mo" alt="profile-image"/>
+						<div class="account__info">
+							<h4 class="choose__account">Fahad Mustafa</h4>
+							<p>burfatfahad.121@gmail.com</p>
+						</div>
+					</div>
+					<div class="account__row">
+						<img  class="choose__account2" src="https://lh3.googleusercontent.com/ogw/ADGmqu9LHAWE6IwAYGFLH7QGwr5eK-pm0X9gjequyNmDng=s32-c-mo" alt="profile-image"/>
+						<div class="account__info">
+							<h4 class="choose__account">Fahad Mustafa</h4>
+							<p>burfatfahad.121@gmail.com</p>
+						</div>
+					</div>
+					
+				
+					
+					<div class="account__row">
+						<span class="material-icons">
+							account_circle
+						</span>
+						<div class="account__info create__account">
+							<h4 class="create__accountBtn">Create Another Account...</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="sign__up">
+				<div class="top">
+					<span class="material-icons close__signIp">close</span>
+				</div>
+
+				<div class="form__header signup">
+					<img class="header__logo" src="assets/img/logo.png" alt="youtube-header"/>
+					<h3>Create Your YouTube Account...</h3>
+				</div>
+
+				<form>
+					<div class="form__body create-a">
+						<div class="form-floating mb-3">
+							<input type="text" id="floatingLabel1" class="form-control is-invalid" placeholder="first name" required/>
+							<label for="floatingLabel1">first name</label>
+						</div>
+						<div class="form-floating mb-3">
+							<input type="text" id="floatingLabel2" class="form-control" placeholder="last name" required/>
+							<label for="floatingLabel2">last name</label>
+						</div>
+					</div>
+
+					<div class="form__body create-b">
+						<div class="form-floating mb-3 w-100">
+							<input type="email" id="floatingLabel3" class="form-control email" placeholder="email" required/>
+							<label for="floatingLabel3">Email</label>
+						</div>
+						<p>You can use letters, numbers and periods.</p>
+					</div>
+
+					<div class="form__body create-a create-c">
+						<div class="form-floating mb-3">
+							<input type="password" id="floatingLabel4" class="form-control is__checked" placeholder="password" required/>
+							<label for="floatingLabel4">Password</label>
+						</div>
+						<div class="form-floating mb-3">
+							<input type="password" id="floatingLabel5" class="form-control is__checked2" placeholder="confirm" required/>
+							<label for="floatingLabel5">Confirm</label>
+						</div>
+						<p>Use 8 or more characters with a mix of letters numbers & symbols</p>
+					</div>
+
+					<div class="form-check form-check-inline">
+						<input type="checkbox" class="form-check-input" id="defaultCheckInline1"/>
+						<label for="defaultCheckInline1" class="form-check-label">show password</label>
+					</div>
+
+					<button type="submit" class="loginBtn signup">Create</button>
+				</form>
+
+				<div class="account__row">
+					<span class="material-icons">
+					account_circle
+					</span>
+					<div class="account__info create__account">
+						<h4 class="already__accountBtn">Already Have An Account...</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Scripts -->
+	<!-- Menu Script -->
+	<script src="./assets/js/menu.js"></script>
+	<script src="./assets/js/modal.js"></script>
+</body>
+</html>
